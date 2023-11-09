@@ -1,0 +1,228 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'blockquotes';
+@import 'code';
+@import 'media';
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Source+Sans+3&display=swap');
+
+main {
+    background-color: $lightcolor;
+}
+
+body {
+    line-height: 1.5rem;
+    background-color: $darkcolor;
+    color: $darkcolor;
+}
+
+.header {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: $lightcolor;
+}
+
+footer {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: $lightcolor !important;
+    padding: 10px;
+
+    div {
+        color: $lightcolor;
+    }
+
+    p {
+        color: $lightcolor;
+    }
+
+    i {
+        color: $lightcolor;
+    }
+
+    a {
+        color: $lightcolor;
+    }
+
+    a:hover {
+        color: $lightcolor;
+    }
+
+    h1 {
+        color: $whitecolor;
+    }
+}
+
+.title {
+    white-space: nowrap;
+    font-size: 3vw;
+    padding: 3em 3em 3em 0;
+    color: $midcolor;
+
+    p {
+        font-style: italic;
+    }
+}
+
+* {
+    color: $darkcolor;
+    font-family: $textfont;
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: $titlefont;
+        color: $midcolor;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.main {
+    flex: 1 0 auto;
+    padding-top: 30px;
+}
+
+/* Header */
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+
+    .logo {
+        max-width: 350px;
+        min-width: 40%;
+    }
+
+    .logo img {
+        border-radius: 100%;
+        border: solid 3px $darkcolor;
+        margin-left: 20px;
+    }
+
+    .nav {
+        color: $darkcolor;
+    }
+
+    .nav a {
+        color: $darkcolor;
+        text-decoration: none;
+    }
+
+    .nav a:hover {
+        color: $midcolor;
+        text-decoration: none;
+    }
+}
+
+.logo {
+    padding: 3em 3em 3em 0;
+}
+
+.social {
+    font-size: 2rem;
+}
+
+p, td, th, li, dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: $darkcolor;
+    text-decoration: none;
+
+    &:hover {
+        color: $midcolor;
+        text-decoration: none;
+    }
+}
+
+code {
+    margin: 0 0.1em;
+    padding: 0.1em 0.2em;
+    border: 1px solid $lightcolor;
+    border-radius: 0.3em;
+    background: $whitecolor;
+    font-family: monospace;
+    font-size: 0.85rem;
+    line-height: 1.9824;
+}
+
+pre {
+    padding: 0 1em;
+    border: 1px solid $lightcolor;
+    border-radius: 0.3em;
+    background: $whitecolor;
+
+    code {
+        display: block;
+        margin: 0;
+        padding: 1.1111em 0;
+        border: 0 none;
+        background: transparent;
+        overflow-x: auto;
+        line-height: 1.4;
+    }
+}
+
+
+blockquote {
+    font-style: italic;
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left: 0.5em solid $whitecolor;
+}
+
+.slide {
+    overflow-y: hidden !important;
+    transition: height 0.5s ease-in !important;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 0;
+    list-style: none;
+
+    li {
+        padding: 0 1em;
+    }
+}
+
+.nav-toggle {
+    display: none;
+
+    a {
+        color: $darkcolor;
+    }
+}
