@@ -1,6 +1,7 @@
 ---
 Title: Home
 Description: This is our index page.
+Image: image/index.png
 ---
 
 Home page

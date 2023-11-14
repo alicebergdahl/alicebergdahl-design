@@ -3,11 +3,16 @@
 <body>
     {% include 'incl/nav.twig' %}
 
-    <main>
-    <div class="main" role="main">
+<main>
+    <div class="mainbox" role="main">
         {{ content }}
     </div>
-    </main>
+        {% if meta.Image is defined %}
+            <div class="mainbox">
+                <img src="{{ meta.Image }}" alt="Index Image">
+            </div>
+        {% endif %}
+</main>
     
     {% include 'incl/footer.twig' %}
 </body>

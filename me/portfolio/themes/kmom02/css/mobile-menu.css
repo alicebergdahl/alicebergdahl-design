@@ -58,6 +58,14 @@
         padding: 0.5em 0;
     }
 
+    .logo {
+        padding: 1em 1em 1em 0;
+        margin-top: 20px;
+        margin-left: -20px;
+        padding-left: 10%;
+        width: 40%;
+    }
+
     .js .nav-toggle {
         display: block;
         float: right;

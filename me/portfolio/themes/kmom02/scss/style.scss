@@ -13,13 +13,42 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Source+Sans+3&display=swap');
 
 main {
-    background-color: $lightcolor;
+    background-color: $whitecolor;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 0;
+    overflow: hidden;
 }
 
 body {
     line-height: 1.5rem;
-    background-color: $darkcolor;
+    background-color: $lightcolor;
     color: $darkcolor;
+    margin: 0;
+}
+
+.mainbox {
+    flex-basis: 48%; /* 50% width with no gap in between */
+    margin: 0;
+    background-color: $whitecolor;
+    overflow: hidden;
+    img {
+        height: 100%;
+        display: block;
+        object-fit: cover;
+    }
+}
+
+
+main:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .header {
@@ -35,6 +64,7 @@ footer {
     justify-content: space-between;
     color: $lightcolor !important;
     padding: 10px;
+    background-color: $darkcolor;
 
     div {
         color: $lightcolor;
