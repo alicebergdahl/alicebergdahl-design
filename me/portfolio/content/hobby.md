@@ -1,6 +1,10 @@
 ---
 Title: Hobby
 Description: Page about my hobby
+Image1: image/hobby1.jpg
+Image2: image/hobby2.png
+Image3: image/hobby3.jpg
+Image4: image/hobby4.jpg
 ---
 
 Min hobby

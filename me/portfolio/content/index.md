@@ -1,7 +1,9 @@
 ---
 Title: Home
 Description: This is our index page.
-Image: image/index.png
+Image1: image/index.png
+Image2: image/filmjag.jpg
+Content2: Lite content
 ---
 
 Home page

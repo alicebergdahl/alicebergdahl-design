@@ -3,16 +3,51 @@
 <body>
     {% include 'incl/nav.twig' %}
 
-<main>
-    <div class="mainbox" role="main">
-        {{ content }}
-    </div>
-        {% if meta.Image is defined %}
-            <div class="mainbox">
-                <img src="{{ meta.Image }}" alt="Index Image">
+    <main>
+        <div class="mainbox grid" role="main">
+            <div class="left-box text-box box1">
+                {{ content }}
             </div>
-        {% endif %}
-</main>
+            {% if meta.Image1 is defined %}
+                <div class="right-box box2">
+                    <img src="{{ meta.Image1 }}" alt="Index Image">
+                </div>
+            {% endif %}
+
+            {% if meta.Image2 is defined %}
+                <div class="left-box box3">
+                    <img src="{{ meta.Image2 }}" alt="Index Image">
+                </div>
+            {% endif %}
+            {% if meta.Content2 is defined %}
+                <div class="right-box text-box box4">
+                    {{ meta.Content2 }}
+                </div>
+            {% endif %}
+
+            {% if meta.Content3 is defined %}
+                <div class="right-box text-box box5">
+                    {{ meta.Content3 }}
+                </div>
+            {% endif %}
+            {% if meta.Image3 is defined %}
+                <div class="right-box box6">
+                    <img src="{{ meta.Image3 }}" alt="Index Image">
+                </div>
+            {% endif %}
+
+            {% if meta.Image4 is defined %}
+                <div class="left-box box7">
+                    <img src="{{ meta.Image4 }}" alt="Index Image">
+                </div>
+            {% endif %}
+            {% if meta.Content4 is defined %}
+                <div class="right-box text-box box8">
+                    {{ meta.Content4 }}
+                </div>
+            {% endif %}
+        </div>
+    </main>
     
     {% include 'incl/footer.twig' %}
 </body>

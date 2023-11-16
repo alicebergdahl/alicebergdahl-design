@@ -3,19 +3,15 @@
         display: block;
         float: right;
         width: 2em;
-        margin: 0.6667em 0;
+        margin-right: 50px;
         font-size: 1.5rem;
         line-height: 2em;
         text-align: center;
         cursor: pointer;
     }
 
-    .logo {
-        padding: 1em 1em 1em 0;
-        margin-top: 20px;
-        margin-left: -20px;
-        padding-left: 10%;
-        width: 40%;
+    .logo img {
+        width: 200px;
     }
 
     .nav {

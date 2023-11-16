@@ -6462,18 +6462,14 @@ pre code {
     display: block;
     float: right;
     width: 2em;
-    margin: 0.6667em 0;
+    margin-right: 50px;
     font-size: 1.5rem;
     line-height: 2em;
     text-align: center;
     cursor: pointer;
   }
-  .logo {
-    padding: 1em 1em 1em 0;
-    margin-top: 20px;
-    margin-left: -20px;
-    padding-left: 10%;
-    width: 40%;
+  .logo img {
+    width: 200px;
   }
   .nav {
     color: #412f3d;
@@ -6482,13 +6478,261 @@ pre code {
     color: #D8CFD0;
   }
 }
+/* technology.scss */
+.grid {
+  display: grid;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 100px);
+}
+
+.tech {
+  max-width: 1000px;
+  margin: 0 auto;
+  grid-template-columns: 5fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.sidebar {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-box {
+  background-color: #412f3d;
+  color: #D8CFD0;
+  font-weight: 800;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: right;
+  border: 2px solid #F2F1EF;
+}
+.sidebar-box:hover {
+  background-color: #D8CFD0;
+}
+
+.sidebar-active {
+  background-color: #D8CFD0;
+  color: #412f3d;
+  border: 2px solid #412f3d;
+}
+
+.tech-content {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  padding: 30px;
+}
+
+.boxtitle {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.boxcss {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  border: 2px solid #412f3d;
+  margin: 5px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  background-color: #D8CFD0;
+}
+.boxcss:hover {
+  background-color: #412f3d;
+  color: #D8CFD0;
+}
+
+.boxhtml {
+  grid-column: 2/4;
+  grid-row: 2/3;
+  border: 2px solid #412f3d;
+  margin: 5px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  background-color: #D8CFD0;
+}
+.boxhtml:hover {
+  background-color: #412f3d;
+  color: #D8CFD0;
+}
+
+.boxjavascript {
+  grid-column: 1/3;
+  grid-row: 3/4;
+  border: 2px solid #412f3d;
+  margin: 5px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  background-color: #D8CFD0;
+}
+.boxjavascript:hover {
+  background-color: #412f3d;
+  color: #D8CFD0;
+}
+
+.boxphp {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  border: 2px solid #412f3d;
+  margin: 5px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  background-color: #D8CFD0;
+}
+.boxphp:hover {
+  background-color: #412f3d;
+  color: #D8CFD0;
+}
+
+.boxpython {
+  grid-column: 1/4;
+  grid-row: 4/5;
+  border: 2px solid #412f3d;
+  margin: 5px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  background-color: #D8CFD0;
+}
+.boxpython:hover {
+  background-color: #412f3d;
+  color: #D8CFD0;
+}
+
+.boxgit {
+  grid-column: 1/2;
+  grid-row: 5/6;
+  border: 2px solid #412f3d;
+  margin: 5px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  background-color: #D8CFD0;
+}
+.boxgit:hover {
+  background-color: #412f3d;
+  color: #D8CFD0;
+}
+
+.boxsqlite {
+  grid-column: 2/4;
+  grid-row: 5/6;
+  border: 2px solid #412f3d;
+  margin: 5px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  background-color: #D8CFD0;
+}
+.boxsqlite:hover {
+  background-color: #412f3d;
+  color: #D8CFD0;
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 60px);
+  }
+  .boxtitle {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+  .boxcss {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border: 2px solid #412f3d;
+    font-size: 30px;
+  }
+  .boxhtml {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    border: 2px solid #412f3d;
+    font-size: 30px;
+  }
+  .boxjavascript {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    border: 2px solid #412f3d;
+    font-size: 30px;
+  }
+  .boxphp {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    border: 2px solid #412f3d;
+    font-size: 30px;
+  }
+  .boxpython {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    border: 2px solid #412f3d;
+    font-size: 30px;
+  }
+  .boxgit {
+    grid-column: 1/2;
+    grid-row: 7/8;
+    border: 2px solid #412f3d;
+    font-size: 30px;
+  }
+  .boxsqlite {
+    grid-column: 1/2;
+    grid-row: 8/9;
+    border: 2px solid #412f3d;
+    font-size: 30px;
+  }
+  .sidebar-box {
+    display: none;
+  }
+  .tech {
+    grid-template-columns: 1fr;
+  }
+  .tech-content {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 30px;
+  }
+}
 main {
   background-color: #F2F1EF;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 24px;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   margin-bottom: 30px;
   padding: 0;
@@ -6503,21 +6747,75 @@ body {
 }
 
 .mainbox {
-  flex-basis: 48%; /* 50% width with no gap in between */
+  max-width: 1000px;
   margin: 0;
-  background-color: #F2F1EF;
-  overflow: hidden;
-}
-.mainbox img {
-  height: 100%;
-  display: block;
-  object-fit: cover;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, auto);
 }
 
-main:after {
-  content: "";
-  display: table;
-  clear: both;
+.left-box {
+  grid-column: 1/2;
+  padding-bottom: 0;
+  display: block;
+  margin-bottom: -5px;
+}
+.left-box .img {
+  height: 100%;
+  display: block;
+}
+
+.right-box {
+  grid-column: 2/3;
+  display: block;
+  padding-bottom: 0;
+  margin-bottom: -7px;
+}
+.right-box .img {
+  height: 100%;
+}
+
+.text-box {
+  padding: 30px;
+}
+
+.box1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.box2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.box3 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.box4 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.box5 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.box6 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.box7 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+
+.box8 {
+  grid-column: 2/3;
+  grid-row: 4/5;
 }
 
 .header {
@@ -6601,6 +6899,7 @@ ol, ul {
 .site-header .logo {
   max-width: 350px;
   min-width: 40%;
+  margin-left: calc(50% - 200px);
 }
 .site-header .logo img {
   border-radius: 100%;

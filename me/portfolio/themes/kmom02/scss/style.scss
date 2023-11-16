@@ -9,6 +9,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'blockquotes';
 @import 'code';
 @import 'media';
+@import 'technology';
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Source+Sans+3&display=swap');
 
@@ -18,7 +19,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 24px;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     margin-bottom: 30px;
     padding: 0;
@@ -33,22 +34,77 @@ body {
 }
 
 .mainbox {
-    flex-basis: 48%; /* 50% width with no gap in between */
+    max-width: 1000px;
     margin: 0;
-    background-color: $whitecolor;
-    overflow: hidden;
-    img {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+.left-box {
+    grid-column: 1 / 2;
+    padding-bottom: 0;
+    display: block;
+    margin-bottom: -5px;
+
+    .img {
         height: 100%;
         display: block;
-        object-fit: cover;
     }
 }
 
+.right-box {
+    grid-column: 2 / 3;
+    display: block;
+    padding-bottom: 0;
+    margin-bottom: -7px;
 
-main:after {
-    content: "";
-    display: table;
-    clear: both;
+    .img {
+        height: 100%;
+    }
+}
+
+.text-box {
+    padding: 30px;
+}
+
+.box1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.box2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.box3 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.box4 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.box5 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.box6 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.box7 {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+
+.box8 {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
 }
 
 .header {
@@ -141,6 +197,7 @@ ol, ul {
     .logo {
         max-width: 350px;
         min-width: 40%;
+        margin-left: calc(50% - 200px);
     }
 
     .logo img {
