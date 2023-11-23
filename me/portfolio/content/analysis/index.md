@@ -1,7 +1,7 @@
 ---
 Title: Reports
 Description: This is my reports.
-Template: technologies
+Template: reports
 ---
 
 <div class="grid-reports wrapper-reports">
