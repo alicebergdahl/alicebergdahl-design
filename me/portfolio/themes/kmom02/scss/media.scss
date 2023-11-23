@@ -23,4 +23,18 @@
         color: $lightcolor;
     }
 
+    .site-header {
+        display: flex;
+        justify-content: space-between;
+        margin-left: -20%;
+    }
+
+    .title {
+        margin-left: -20%;
+    }
+
+    .logo {
+        margin-top: 0 !important;
+    }
+
 }
