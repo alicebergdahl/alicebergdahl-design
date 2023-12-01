@@ -1,5 +1,5 @@
 ---
-Title: Färganalyys
+Title: Färganalys
 Description: Färganalys av tre portugisiska hemsidor.
 Image2: ../image/musa.jpg
 Image3: ../image/financas.jpg
