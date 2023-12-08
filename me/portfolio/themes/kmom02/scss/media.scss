@@ -1,3 +1,5 @@
+@import 'variables';
+
 @media (max-width: 767px) {
     .nav-toggle {
         display: block;
@@ -16,6 +18,11 @@
 
     .nav {
         color: $darkcolor;
+        background-color: $darkcolor !important;
+    }
+
+    .nav-box {
+        background-color: $darkcolor !important;
     }
 
 

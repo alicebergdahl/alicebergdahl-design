@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="sv">
 {% include 'incl/header.twig' %}
 
 <body>
@@ -5,13 +7,11 @@
 
     <main>
         <div class="gallerymain" role="main">
-            {% for i in range(1, 15) %}
+            {% for i in range(1, 17) %}
                 <div class="gbox{{ i }} gallerybox">
                     <a href="http://www.student.bth.se/~albd23/dbwebb-kurser/design/me/portfolio/image/gallery{{ i }}.jpg">
                         <picture>
                             <source media="(min-width: 1000px)" srcset="image/gallery{{ i }}.jpg?h=700&w=700&crop-to-fit">
-                            <source media="(min-width: 750px)" srcset="image/gallery{{ i }}.jpg?h=500&w=500&crop-to-fit">
-                            <source media="(min-width: 600px)" srcset="image/gallery{{ i }}.jpg?h=400&w=400&crop-to-fit">
                             <source media="(min-width: 550px)" srcset="image/gallery{{ i }}.jpg?h=250&w=250&crop-to-fit">
                             <source media="(min-width: 400px)" srcset="image/gallery{{ i }}.jpg">
                             <img src="image/gallery{{ i }}.jpg" alt="foto">
@@ -20,9 +20,8 @@
                 </div>
             {% endfor %}
             <div class="embed-container">
-                <iframe src="https://www.youtube.com/embed/-THq0-EDJrE?si=CHD_aSoKcNVn3NhR" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/-THq0-EDJrE?si=CHD_aSoKcNVn3NhR" frameborder="0" allowfullscreen title="The Miseducation of Eunice Waymon"></iframe>
             </div>
-        </div>
                 {{ content }}
     </main>
     

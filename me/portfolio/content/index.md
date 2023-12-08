@@ -2,8 +2,6 @@
 Title: Home
 Description: This is our index page.
 Image1: image/index.png
-Image2: image/filmjag.jpg
-Content2: Lite content
 ---
 
 <div class="left-box text-box box1">

@@ -15,7 +15,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Source+Sans+3&display=swap');
 
 main {
-    background-color: $whitecolor;
+    background-color: $fivecolor;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -30,15 +30,15 @@ main {
 
 @media (max-width: 767px) {
     .nav {
-        color: $darkcolor;
-        background-color: $midcolor;
+        color: $twocolor;
+        background-color: $threecolor;
     }
 }
 
 body {
     line-height: 1.5rem;
-    background-color: $lightcolor;
-    color: $darkcolor;
+    background-color: $fourcolor;
+    color: $twocolor;
     margin: 0;
 }
 
@@ -139,7 +139,7 @@ body {
     flex: 0 0 auto;
     display: flex;
     justify-content: space-between;
-    background-color: $lightcolor;
+    background-color: $fourcolor;
 }
 
 footer {
@@ -147,32 +147,32 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: $darkcolor !important;
+    color: $fourcolor !important;
     padding: 10px;
-    background-color: $lightcolor;
+    background-color: $twocolor;
 
     div {
-        color: $darkcolor;
+        color: $fourcolor;
     }
 
     p {
-        color: $darkcolor;
+        color: $fourcolor;
     }
 
     i {
-        color: $darkcolor;
+        color: $fourcolor;
     }
 
     a {
-        color: $darkcolor;
+        color: $fourcolor;
     }
 
     a:hover {
-        color: $darkcolor;
+        color: $fourcolor;
     }
 
     h1 {
-        color: $midcolor;
+        color: $fivecolor;
     }
 }
 
@@ -180,7 +180,7 @@ footer {
     white-space: nowrap;
     font-size: 3vw;
     padding: 3em 3em 3em 0;
-    color: $midcolor;
+    color: $threecolor;
 
     p {
         font-style: italic;
@@ -188,12 +188,12 @@ footer {
 }
 
 * {
-    color: $darkcolor;
+    color: $twocolor;
     font-family: $textfont;
 
     h1, h2, h3, h4, h5, h6 {
         font-family: $titlefont;
-        color: $midcolor;
+        color: $threecolor;
     }
 }
 
@@ -232,21 +232,21 @@ ol, ul {
 
     .logo img {
         border-radius: 100%;
-        border: solid 3px $midcolor;
+        border: solid 3px $threecolor;
         margin-left: 20px;
     }
 
     .nav {
-        color: $darkcolor;
+        color: $twocolor;
     }
 
     .nav a {
-        color: $darkcolor;
+        color: $twocolor;
         text-decoration: none;
     }
 
     .nav a:hover {
-        color: $midcolor;
+        color: $threecolor;
         text-decoration: none;
     }
 }
@@ -284,11 +284,11 @@ img {
 }
 
 a {
-    color: $darkcolor;
+    color: $twocolor;
     text-decoration: none;
 
     &:hover {
-        color: $midcolor;
+        color: $threecolor;
         text-decoration: none;
     }
 }
@@ -296,9 +296,9 @@ a {
 code {
     margin: 0 0.1em;
     padding: 0.1em 0.2em;
-    border: 1px solid $lightcolor;
+    border: 1px solid $fourcolor;
     border-radius: 0.3em;
-    background: $whitecolor;
+    background: $fivecolor;
     font-family: monospace;
     font-size: 0.85rem;
     line-height: 1.9824;
@@ -308,7 +308,7 @@ pre {
     padding: 0 1em;
     border: 1px solid $lightcolor;
     border-radius: 0.3em;
-    background: $whitecolor;
+    background: $fivecolor;
 
     code {
         display: block;
@@ -326,7 +326,7 @@ blockquote {
     font-style: italic;
     margin-left: 1em;
     padding-left: 1em;
-    border-left: 0.5em solid $whitecolor;
+    border-left: 0.5em solid $fivecolor;
 }
 
 .slide {
@@ -352,6 +352,6 @@ blockquote {
     z-index: 1000;
 
     a {
-        color: $darkcolor;
+        color: $twocolor;
     }
 }

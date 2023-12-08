@@ -16,14 +16,14 @@
         </div>
     </div>
 
-        <div class="social">
-            {% for social in pages["_meta"].meta.social %}
-                <a href="{{ social.url }}" title="{{ social.title }}" role="button">
-                    <i class="{{ social.icon }}" aria-hidden="true"></i>
-                    <span class="sr-only">{{ social.title }}</span>
-                </a>
-            {% endfor %}
-        </div>
+    <div class="social">
+        {% for social in pages["_meta"].meta.social %}
+            <a href="{{ social.url }}" title="{{ social.title }}" role="button" aria-label="{{ social.title }}">
+                <i class="{{ social.icon }}" aria-hidden="true"></i>
+                <span class="sr-only">{{ social.title }}</span>
+            </a>
+        {% endfor %}
+    </div>
     </div>
 </footer>
 

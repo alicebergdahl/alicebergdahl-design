@@ -6472,10 +6472,14 @@ pre code {
     width: 200px;
   }
   .nav {
-    color: #ced7db;
+    color: #24313d;
+    background-color: #24313d !important;
+  }
+  .nav-box {
+    background-color: #24313d !important;
   }
   .nav a {
-    color: #1c2428;
+    color: #e3c2c4;
   }
   .site-header {
     display: flex;
@@ -6516,23 +6520,23 @@ pre code {
 }
 
 .sidebar-box {
-  background-color: #ced7db;
-  color: #1c2428;
+  background-color: #24313d;
+  color: #e3c2c4;
   font-weight: 800;
   display: flex;
   padding: 10px;
   align-items: center;
   justify-content: right;
-  border: 2px solid #262f34;
+  border: 2px solid #f5e3e4;
 }
 .sidebar-box:hover {
-  background-color: #1c2428;
+  background-color: #e3c2c4;
 }
 
 .sidebar-active {
-  background-color: #1c2428;
-  color: #ced7db;
-  border: 2px solid #ced7db;
+  background-color: #e3c2c4;
+  color: #24313d;
+  border: 2px solid #24313d;
 }
 
 .tech-content {
@@ -6544,7 +6548,7 @@ pre code {
 .boxtitle {
   grid-column: 1/4;
   grid-row: 1/2;
-  font-size: 50px;
+  font-size: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -6554,120 +6558,120 @@ pre code {
 .boxcss {
   grid-column: 1/2;
   grid-row: 2/3;
-  border: 2px solid #ced7db;
+  border: 2px solid #24313d;
   margin: 5px;
   font-size: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 800;
-  background-color: #1c2428;
+  background-color: #e3c2c4;
 }
 .boxcss:hover {
-  background-color: #ced7db;
-  color: #1c2428;
+  background-color: #24313d;
+  color: #e3c2c4;
 }
 
 .boxhtml {
   grid-column: 2/4;
   grid-row: 2/3;
-  border: 2px solid #ced7db;
+  border: 2px solid #24313d;
   margin: 5px;
   font-size: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 800;
-  background-color: #1c2428;
+  background-color: #e3c2c4;
 }
 .boxhtml:hover {
-  background-color: #ced7db;
-  color: #1c2428;
+  background-color: #24313d;
+  color: #e3c2c4;
 }
 
 .boxjavascript {
   grid-column: 1/3;
   grid-row: 3/4;
-  border: 2px solid #ced7db;
+  border: 2px solid #24313d;
   margin: 5px;
   font-size: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 800;
-  background-color: #1c2428;
+  background-color: #e3c2c4;
 }
 .boxjavascript:hover {
-  background-color: #ced7db;
-  color: #1c2428;
+  background-color: #24313d;
+  color: #e3c2c4;
 }
 
 .boxphp {
   grid-column: 3/4;
   grid-row: 3/4;
-  border: 2px solid #ced7db;
+  border: 2px solid #24313d;
   margin: 5px;
   font-size: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 800;
-  background-color: #1c2428;
+  background-color: #e3c2c4;
 }
 .boxphp:hover {
-  background-color: #ced7db;
-  color: #1c2428;
+  background-color: #24313d;
+  color: #e3c2c4;
 }
 
 .boxpython {
   grid-column: 1/4;
   grid-row: 4/5;
-  border: 2px solid #ced7db;
+  border: 2px solid #24313d;
   margin: 5px;
   font-size: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 800;
-  background-color: #1c2428;
+  background-color: #e3c2c4;
 }
 .boxpython:hover {
-  background-color: #ced7db;
-  color: #1c2428;
+  background-color: #24313d;
+  color: #e3c2c4;
 }
 
 .boxgit {
   grid-column: 1/2;
   grid-row: 5/6;
-  border: 2px solid #ced7db;
+  border: 2px solid #24313d;
   margin: 5px;
   font-size: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 800;
-  background-color: #1c2428;
+  background-color: #e3c2c4;
 }
 .boxgit:hover {
-  background-color: #ced7db;
-  color: #1c2428;
+  background-color: #24313d;
+  color: #e3c2c4;
 }
 
 .boxsqlite {
   grid-column: 2/4;
   grid-row: 5/6;
-  border: 2px solid #ced7db;
+  border: 2px solid #24313d;
   margin: 5px;
   font-size: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 800;
-  background-color: #1c2428;
+  background-color: #e3c2c4;
 }
 .boxsqlite:hover {
-  background-color: #ced7db;
-  color: #1c2428;
+  background-color: #24313d;
+  color: #e3c2c4;
 }
 
 @media (max-width: 767px) {
@@ -6686,43 +6690,43 @@ pre code {
   .boxcss {
     grid-column: 1/2;
     grid-row: 2/3;
-    border: 2px solid #ced7db;
+    border: 2px solid #24313d;
     font-size: 30px;
   }
   .boxhtml {
     grid-column: 1/2;
     grid-row: 3/4;
-    border: 2px solid #ced7db;
+    border: 2px solid #24313d;
     font-size: 30px;
   }
   .boxjavascript {
     grid-column: 1/2;
     grid-row: 4/5;
-    border: 2px solid #ced7db;
+    border: 2px solid #24313d;
     font-size: 30px;
   }
   .boxphp {
     grid-column: 1/2;
     grid-row: 5/6;
-    border: 2px solid #ced7db;
+    border: 2px solid #24313d;
     font-size: 30px;
   }
   .boxpython {
     grid-column: 1/2;
     grid-row: 6/7;
-    border: 2px solid #ced7db;
+    border: 2px solid #24313d;
     font-size: 30px;
   }
   .boxgit {
     grid-column: 1/2;
     grid-row: 7/8;
-    border: 2px solid #ced7db;
+    border: 2px solid #24313d;
     font-size: 30px;
   }
   .boxsqlite {
     grid-column: 1/2;
     grid-row: 8/9;
-    border: 2px solid #ced7db;
+    border: 2px solid #24313d;
     font-size: 30px;
   }
   .sidebar-box {
@@ -6744,63 +6748,63 @@ pre code {
 .wrapper-reports {
   max-width: 1000px;
   margin: 0 auto;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(4, 100px);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 
 .box-color {
-  grid-column: 1;
-  grid-row: 2/3;
-  border: 2px solid #ced7db;
+  grid-column: 1/2;
+  grid-row: 2;
+  border: 2px solid #24313d;
   margin: 5px;
-  font-size: 40px;
+  font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 800;
-  background-color: #1c2428;
+  background-color: #e3c2c4;
 }
 .box-color:hover {
-  background-color: #ced7db;
-  color: #1c2428;
+  background-color: #24313d;
+  color: #e3c2c4;
 }
 
 .box-load {
-  grid-column: 1;
-  grid-row: 3/4;
-  border: 2px solid #ced7db;
+  grid-column: 2/3;
+  grid-row: 2;
+  border: 2px solid #24313d;
   margin: 5px;
-  font-size: 40px;
+  font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 800;
-  background-color: #1c2428;
+  background-color: #e3c2c4;
 }
 .box-load:hover {
-  background-color: #ced7db;
-  color: #1c2428;
+  background-color: #24313d;
+  color: #e3c2c4;
 }
 
 .box-design {
-  grid-column: 1;
-  grid-row: 4/5;
-  border: 2px solid #ced7db;
+  grid-column: 3/4;
+  grid-row: 2;
+  border: 2px solid #24313d;
   margin: 5px;
-  font-size: 40px;
+  font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 800;
-  background-color: #1c2428;
+  background-color: #e3c2c4;
 }
 .box-design:hover {
-  background-color: #ced7db;
-  color: #1c2428;
+  background-color: #24313d;
+  color: #e3c2c4;
 }
 
 main {
-  background-color: #262f34;
+  background-color: #24313d;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -6815,14 +6819,14 @@ main {
 
 @media (max-width: 767px) {
   .nav {
-    color: #ced7db;
-    background-color: #7b8a93;
+    color: #e3c2c4;
+    background-color: #e3c2c4;
   }
 }
 body {
   line-height: 1.5rem;
-  background-color: #1c2428;
-  color: #ced7db;
+  background-color: #212330;
+  color: #e3c2c4;
   margin: 0;
 }
 
@@ -6920,7 +6924,7 @@ body {
   flex: 0 0 auto;
   display: flex;
   justify-content: space-between;
-  background-color: #1c2428;
+  background-color: #212330;
 }
 
 footer {
@@ -6928,46 +6932,46 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ced7db !important;
+  color: #212330 !important;
   padding: 10px;
-  background-color: #1c2428;
+  background-color: #e3c2c4;
 }
 footer div {
-  color: #ced7db;
+  color: #212330;
 }
 footer p {
-  color: #ced7db;
+  color: #212330;
 }
 footer i {
-  color: #ced7db;
+  color: #212330;
 }
 footer a {
-  color: #ced7db;
+  color: #212330;
 }
 footer a:hover {
-  color: #ced7db;
+  color: #212330;
 }
 footer h1 {
-  color: #7b8a93;
+  color: #24313d;
 }
 
 .title {
   white-space: nowrap;
   font-size: 3vw;
   padding: 3em 3em 3em 0;
-  color: #7b8a93;
+  color: #e3c2c4;
 }
 .title p {
   font-style: italic;
 }
 
 * {
-  color: #ced7db;
+  color: #e3c2c4;
   font-family: "Source Sans 3", sans-serif;
 }
 * h1, * h2, * h3, * h4, * h5, * h6 {
   font-family: "Oswald", sans-serif;
-  color: #7b8a93;
+  color: #e3c2c4;
 }
 
 * {
@@ -7003,18 +7007,18 @@ ol, ul {
 }
 .site-header .logo img {
   border-radius: 100%;
-  border: solid 3px #7b8a93;
+  border: solid 3px #e3c2c4;
   margin-left: 20px;
 }
 .site-header .nav {
-  color: #ced7db;
+  color: #e3c2c4;
 }
 .site-header .nav a {
-  color: #ced7db;
+  color: #e3c2c4;
   text-decoration: none;
 }
 .site-header .nav a:hover {
-  color: #7b8a93;
+  color: #e3c2c4;
   text-decoration: none;
 }
 
@@ -7051,20 +7055,20 @@ img {
 }
 
 a {
-  color: #ced7db;
+  color: #e3c2c4;
   text-decoration: none;
 }
 a:hover {
-  color: #7b8a93;
+  color: #e3c2c4;
   text-decoration: none;
 }
 
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid #1c2428;
+  border: 1px solid #212330;
   border-radius: 0.3em;
-  background: #262f34;
+  background: #24313d;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -7072,9 +7076,9 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 1px solid #1c2428;
+  border: 1px solid #e3c2c4;
   border-radius: 0.3em;
-  background: #262f34;
+  background: #24313d;
 }
 pre code {
   display: block;
@@ -7090,7 +7094,7 @@ blockquote {
   font-style: italic;
   margin-left: 1em;
   padding-left: 1em;
-  border-left: 0.5em solid #262f34;
+  border-left: 0.5em solid #24313d;
 }
 
 .slide {
@@ -7115,5 +7119,5 @@ blockquote {
   z-index: 1000;
 }
 .nav-toggle a {
-  color: #ced7db;
+  color: #e3c2c4;
 }
