@@ -88,7 +88,7 @@ Jag har fixat layouten för rapporten för analys av load så att det ser bättr
 För att öka kontrasten har jag ändrat färgerna på sidan. Jag har lagt till en mörkblå ton som fungerar som kontrastfärg till den ljusrosa stilen.
 <h2> </h2>
 För att skapa balans med hjälp av designprincipen komposition så har jag försökt använda mig av både bilder och text på mina undersidor. Jag har valt att bilderna ska ta upp halva bredden av main och hamna på varannan höger och varannan vänster sida för att skapa en jämvikt och balans på sidan.
-
+<h2> </h2>
 <h2>Analys</h2>
 Granskningen av dessa webbplatser inom personsidorkategorin har förtydligat vikten av designprinciper och designelement för att förmedla syftet med en hemsida. Anderson .Paaks webbplats fångar verkligen energin i hans musik genom en smart användning av kontraster och levande bilder. Cristiano Ronaldos sida visar på professionalism och exklusivitet genom en stilren mörk design och stora bilder. Å andra sidan använder Gunner Stahls webbplats en minimalistisk stil för att framhäva fotografier. Genom att studera dessa webbplatser har jag insett hur designprinciper verkligen blir en viktig del av att skapa en varumärkesidentitet och ge besökarna en meningsfull upplevelse. Denna studie har fått mig att inse hur viktigt design är för en hemisdas användbarhet. Det är tydligt att varje val av färg, bild, och layout inte bara är estetiska beslut utan strategiska verktyg för att skapa en meningsfull och minnesvärd upplevelse för besökarna. 
 

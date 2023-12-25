@@ -22,4 +22,8 @@ Load
 Design Principles
 </a>
 
+<a href="analysis/10_webbplatsdesign" class="box-webb">
+Webbplatsdesign
+</a>
+
 </div>
